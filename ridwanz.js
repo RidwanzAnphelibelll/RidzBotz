@@ -647,8 +647,6 @@ const deskripsiCuaca = weatherData.weather[0].description;
 const kelembaban = weatherData.main.humidity;
 const tekananUdara = weatherData.main.pressure;
 const kecepatanAngin = weatherData.wind.speed;
-const iconCode = weatherData.weather[0].icon;
-const iconUrl = `https://openweathermap.org/img/w/${iconCode}.png`;
 const cuacaText = `\nCuaca Di *${cityName}* Saat Ini :\n- Suhu : *${suhu}°C*\n- Deskripsi : *${deskripsiCuaca}*\n- Kelembaban : *${kelembaban}%*\n- Tekanan Udara : *${tekananUdara} hPa*\n- Kecepatan Angin : *${kecepatanAngin} m/s*\n`;
 return reply(cuacaText);
 } catch (error) {

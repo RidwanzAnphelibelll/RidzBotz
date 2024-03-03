@@ -1,0 +1,55 @@
+{
+  "name": "RidzBotz",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp-openai",
+    "whatsapp-bot",
+    "whatsapp-baileys",
+    "baileys-md",
+    "bot-wa",
+    "bot-md",
+    "whatsapp-multi-device"
+  ],
+  "Author": "RidwanzSaputra",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.0",
+    "@octokit/rest": "^20.0.2",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^1.6.5",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "figlet": "^1.5.2",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.45",
+    "node-cron": "^3.0.3",
+    "openai": "^3.2.1",
+    "path": "^0.12.7",
+    "performance-now": "^2.1.0",
+    "pino": "^7.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.6.1",
+    "util": "^0.12.4",
+    "yargs": "^17.7.2",
+  },
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RidwanzAnphelibelll/RidzBotz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RidwanzAnphelibelll/RidzBotz/issues"
+  },
+  "homepage": "https://github.com/RidwanzAnphelibelll/RidzBotzI#readme"
+}
